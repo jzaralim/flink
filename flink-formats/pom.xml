@@ -53,7 +53,8 @@ under the License.
 		<module>flink-format-common</module>
 		<module>flink-avro-glue-schema-registry</module>
 		<module>flink-json-glue-schema-registry</module>
-    </modules>
+		<module>flink-confluent-registry</module>
+	</modules>
 
 	<!-- override these root dependencies as 'provided', so they don't end up
 		in the jars-with-dependencies (uber jars) of formats and
